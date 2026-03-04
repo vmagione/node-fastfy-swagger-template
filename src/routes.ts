@@ -25,7 +25,7 @@ export async function routes(app: FastifyTypedInstance){
             },
         }
     },() => {
-        return [];
+        return users;
     });
 
     app.post('/users', {
@@ -50,6 +50,6 @@ export async function routes(app: FastifyTypedInstance){
             email
         });
 
-        return reply.status(201).send();
+        return reply.status(201).send(null);
     });
 }
