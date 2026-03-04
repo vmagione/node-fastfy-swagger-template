@@ -1,0 +1,13 @@
+- Instalar o pnpm:
+    - Digitar no terminal-> npm install -g pnpm
+- Criar package.json:
+    - Digitar no terminal-> pnpm init
+-Instalar fastify, cors e zod:
+    - Digitar no terminal-> pnpm i fastify fastify-type-provider-zod @fastify/cors zod
+Instalar o typescript, tsnodes e tsx:
+    - Digitar no terminal-> pnpm i typescript @types/node tsx -D
+- Criar o arquivo tsconfig
+    - Digitar no terminal-> pnpm tsc --init
+- Pesquisar a configuração do tsconfig para a versão do node que estiver usando e colar nele
+- Instalar o swagger
+    - Digitar no terminal-> pnpm i @fastify/swagger @fastify/swagger-ui
